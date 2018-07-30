@@ -26,5 +26,12 @@ namespace GitBranchDeleteTest.Controllers
 
             return View();
         }
+
+        public ActionResult NewPage()
+        {
+            ViewBag.Message = "This is that new page that we care so much about!";
+
+            return View();
+        }
     }
 }
